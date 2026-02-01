@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+html {
+    font-size: 16px;
+    font:oxygen, sans-serif;
+    background-color: #181717;
+    color: #ffffff;
+}
+
+.hero{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-text{
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.border{
+    border: 2px solid #ff0000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #696969;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none; /*removes underline*/
+    color: #ffffff;
+    font-size: 1.5em;
+    border: 3px solid #ff0000;
+}
+
+.nav_bar{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color:#ff0000;
+    size: 20px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+a:link{
+    color:#ffffff; /* defrult link color */
+}
+
+a:visited{
+    color: #ffffff; /* visited link color */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #FFFFFF;
+    font: oxygen, sans-serif;
+    text-wrap: balance;
+}
