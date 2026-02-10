@@ -77,3 +77,58 @@ h5{
     font: oxygen, sans-serif;
     text-wrap: balance;
 }
+
+.contact {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th{
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}

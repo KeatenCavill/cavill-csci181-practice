@@ -14,7 +14,7 @@
             </a>
         <nav class="nav_bar">
             <ul>
-                <li><a href ="/">Home</a></li>
+                <li><a href ="/index.html">Home</a></li>
                 <li><a href="/resume.html">Resume</a></li>
             </ul>
         </nav>
@@ -26,11 +26,68 @@
             <p class="display-text border">
                 Welcome to Keaten's Portfolio!
             </p>
-            <div class ="button-container">
-            <button>My Work</button>
-            </div>
         </section>
-       
+
+        <section id="coursework-table" class="border">
+            <h2>Relevant Coursework</h2>
+
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Outcome</th>
+                    </tr>
+                </thread>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">CSCI 151:</th>
+                        <td>Introduction to Computer Science</td>
+                        <td>Learned basic programming concepts along with python language</td>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row">CSCI 152:</th>
+                        <td>Introduction to Computer Science II</td>
+                        <td>Learned more advanced programming concepts and data structures along with basic java</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">CSCI 258:</th>
+                        <td>Web App Development</td>
+                        <td>Learned how to build web applications using HTML, CSS, and JavaScript in Django</td>
+                    </tr>
+
+                     <tr>
+                        <th scope="row">CSCI 181 (In Process):</th>
+                        <td>Web Design and Programming</td>
+                        <td>Learning how to design and build websites using HTML, CSS, and JavaScript</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>       
     </main>
+
+    <section class="contact border">
+        <h2>Contact Me</h2>
+        <form>
+            <div class = "form-group">
+                <lablel for="name">Name:</lablel>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class = "form-group">
+                <lablel for="email">Email:</lablel>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class = "form-group">
+                <lablel for="message">Message:</lablel>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Your Message!</button>
+        </form>
+    </section>
 </body>
 </html>
