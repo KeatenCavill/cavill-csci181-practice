@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Keaten's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <header id="page-header" class="page-header">
+        <a href="index.html" class="logo">
+            <img src="Images/GlitchLogo.jpg" width="50px" height="50px" alt="Logo"/>
+            <span>Keaten's Portfolio</span>
+            </a>
+        <nav class="nav_bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="bento-grid.html">Bento Grid</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Home Page</h1>
+        <section id="hero">
+            <p class="display-text border">
+                Welcome to Keaten's Portfolio!
+            </p>
+        </section>
+
+        <section id="coursework-table" class="border">
+            <h2>Relevant Coursework</h2>
+
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Outcome</th>
+                    </tr>
+                </thread>
+                <tbody>
+
+                    <tr>
+                        <th scope="row">CSCI 151:</th>
+                        <td>Introduction to Computer Science</td>
+                        <td>Learned basic programming concepts along with python language</td>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row">CSCI 152:</th>
+                        <td>Introduction to Computer Science II</td>
+                        <td>Learned more advanced programming concepts and data structures along with basic java</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">CSCI 258:</th>
+                        <td>Web App Development</td>
+                        <td>Learned how to build web applications using HTML, CSS, and JavaScript in Django</td>
+                    </tr>
+
+                     <tr>
+                        <th scope="row">CSCI 181 (In Process):</th>
+                        <td>Web Design and Programming</td>
+                        <td>Learning how to design and build websites using HTML, CSS, and JavaScript</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section> 
+        
+        <section class="border">
+            <h2>Testimonials</h2>
+            <ui class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 list-none p-0 m-0">
+                <li class="testimonial-card">
+                    <figure>
+                        <blockquote>
+                            <p>
+                                Keaten is easy to work with and is always willing to help out.
+                            </p>
+                        </blockquote>
+
+                        <figcaption>
+                            <img src="Images/TestimPhoto/Grayshirt_Guy.jpg" alt="Grayshirt guy"/>
+                            <p>Grayshirt Guy</p>
+                            <p>Man found on stockimages</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="testimonial-card">
+                    <figure>
+                        <blockquote>
+                            <p>
+                                He is can be very reliable when needed.
+                            </p>
+                        </blockquote>
+
+                        <figcaption>
+                            <img src="Images/TestimPhoto/Flannel_Man.jpg" alt="Flannel Man"/>
+                            <p>Flannel Man</p>
+                            <p>Just a Guy with a Great Smile</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="testimonial-card">
+                    <figure>
+                        <blockquote>
+                            <p>
+                                He is very smart and knowledgeable.
+                            </p>
+                        </blockquote>
+
+                        <figcaption>
+                            <img src="Images/TestimPhoto/Lumber_Man.jpg" alt="Lumber Man"/>
+                            <p>Lumber Man</p>
+                            <p>Someone who doesn't know how to use a axe</p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+            </ui>
+        </section>
+    </main>
+
+    <section class="projects">
+    <h1>Projects</h1>
+    <ul class="project-list">
+        <li class="project-card">
+            <h3>Terminal Can't Hurt You (Django)</h3>
+            <p>Fall 2025 CSCI 258. Terminal Can't Hurt You (TCHUY) was a group final project for CSCI285. The idea was a online learning platform to help people learn simple terminal commands and languages like BASH or Powershell. It was designed with classroom enviroments in mind so its focused around have multiple types of accounts like students, teachers, or just personal.</p>
+            <a href="https://github.com/hypercomrade/terminal-cant-hurt-you">View Github Repo</a>
+        </li>
+        <li class="project-card">
+            <h3>TimeLocked (Godot)</h3>
+            <p>My first full game demo built in Godot. This was a project I worked on for a few classes throughout the semester. A project that may have some flaws, is was one of my favorite things I worked on.</p>
+            <a href="https://github.com/KeatenCavill/TimeLocked"> View Github Repo</a> |
+            <a href="https://eightbitgamer0.itch.io/timelocked">Itch.io Page</a>
+        </li>
+        <li class="project-card">
+            <h3>Family Bingo App (Django)</h3>
+            <p>A Web App develped originaly as a family joke. This app allows for custom bingo cards to be created and played against other family memebers. Members can create accounts and set up their own bingo cards, Admin account can control things such as board size or reset players cards. While it lacks Style, I do wish to come back to it someday to add that.</p>
+            <a href="https://github.com/KeatenCavill/BingoApp">View Github Repo</a> |
+            <a href="https://eightbitgamer0.pythonanywhere.com/leaderboard/">View Live Server</a>
+        </li>
+    </ul>
+
+    <section class="contact border">
+        <h2>Contact Me</h2>
+        <form>
+            <div class = "form-group">
+                <lablel for="name">Name:</lablel>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class = "form-group">
+                <lablel for="email">Email:</lablel>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class = "form-group">
+                <lablel for="message">Message:</lablel>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Your Message!</button>
+        </form>
+    </section>
+</body>
+</html>
